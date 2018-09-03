@@ -47,11 +47,11 @@ public class Civil_New : MonoBehaviour {
     void TargetChecking ()
     {
         nameTxt.text = civilComponents.civilname;
-        skinTxt.text = civilComponents.skinColor.name + " Skin";
+        skinTxt.text = civilComponents.skinColor.name;
 
         for (int i = 0; i < civilParts.Length; i++)
         {
-            civilTxt[i].text = civilComponents.colors[i].name + " " + civilParts[i].transform.name;
+            civilTxt[i].text = civilParts[i].transform.name + " " + civilComponents.colors[i].name;
         }
 
         for (int g = 0; g < manikCivilParts.Length; g++)
