@@ -2330,8 +2330,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 103, y: -236}
-  m_SizeDelta: {x: 1731.3, y: 255.4}
+  m_AnchoredPosition: {x: -389, y: -236}
+  m_SizeDelta: {x: 835.9, y: 255.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744770097
 MonoBehaviour:
@@ -2359,14 +2359,14 @@ MonoBehaviour:
     m_FontStyle: 3
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 189
+    m_MaxSize: 120
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: E C O
+  m_Text: "O\xF9 est Nono ?"
 --- !u!222 &1744770098
 CanvasRenderer:
   m_ObjectHideFlags: 0

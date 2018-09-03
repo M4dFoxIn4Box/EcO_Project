@@ -72,6 +72,7 @@ public class Scope : MonoBehaviour
 
                 if (hit.collider.CompareTag("Secret_Target"))
                 {
+                    charlieSnd.PlayOneShot(correctAnswer, 1f);
                     Level_Manager.instance.TargetsChallenge(1);
                     Destroy(hit.collider.gameObject);
                 }

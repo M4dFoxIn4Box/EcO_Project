@@ -40,7 +40,7 @@ public class Level_Manager : MonoBehaviour
     [Header("Challenges Conditions")]
     public float targetSeconds;
     public float targetMinutes;
-    public int shotLimit;
+    public int errorLimit;
     private bool targetKilled = false;
     public int secretTargetTotal;
 
@@ -295,7 +295,7 @@ public class Level_Manager : MonoBehaviour
     public void ShotsChallenge(int shots)
     {
         shotNumber = shotNumber + shots;
-        if(shotNumber < shotLimit && targetKilled)
+        if(shotNumber < errorLimit && targetKilled)
         {
             shotsToggle.isOn = true;
             Debug.Log(shotNumber);
