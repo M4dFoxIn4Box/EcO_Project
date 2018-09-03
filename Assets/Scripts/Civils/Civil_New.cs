@@ -51,7 +51,7 @@ public class Civil_New : MonoBehaviour {
 
         for (int i = 0; i < civilParts.Length; i++)
         {
-            civilTxt[i].text = civilParts[i].transform.name + " " + civilComponents.colors[i].name;
+            civilTxt[i].text = /*civilParts[i].transform.name + " " +*/ civilComponents.colors[i].name;
         }
 
         for (int g = 0; g < manikCivilParts.Length; g++)

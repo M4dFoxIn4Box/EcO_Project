@@ -29,7 +29,9 @@ public class Level_Manager : MonoBehaviour
     public Toggle shotsToggle;
     public Toggle targetsToggle;    
     public Text[] challengeList;
+    public Text[] challengeListStart;
     public string[] challengeCondition;
+    
     public enum challengeType { Timer, Targets, Shots}
     public challengeType[] type;
 
@@ -66,7 +68,12 @@ public class Level_Manager : MonoBehaviour
             challengeList[a].text = challengeCondition[a];
         }
 
-       
+        for (int a = 0; a < challengeList.Length; a++)
+        {
+            challengeListStart[a].text = challengeCondition[a];
+        }
+
+
         //Check if instance already exists
         if (instance == null)
 

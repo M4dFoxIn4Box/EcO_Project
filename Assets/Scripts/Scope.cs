@@ -31,7 +31,6 @@ public class Scope : MonoBehaviour
     {
         
         normalFOV = mainCamera.fieldOfView;
-        AudioSource charlieSnd = GetComponent<AudioSource>();
       
     }
 
@@ -40,7 +39,7 @@ public class Scope : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Level_Manager.instance.ShotsChallenge(shotValue);
+            crossHair.transform.localScale -= new Vector3(transform.position.x / 2, transform.position.y / 2, transform.position.z / 2);
             StartCoroutine("Shoot");
             //muzzleFlash.Play();
             
@@ -62,10 +61,11 @@ public class Scope : MonoBehaviour
                 }
                 else if(hit.collider.CompareTag("Civil"))
                 {
+                    Level_Manager.instance.ShotsChallenge(shotValue);
                     Debug.Log("You Lose");
                     charlieSnd.PlayOneShot(wrongAnswer, 1f);
-                    Destroy(hit.collider);
-                    Destroy(hit.transform.gameObject, 3f);
+                    //Destroy(hit.collider);
+                    //Destroy(hit.transform.gameObject, 3f);
                     //gameObject.GetComponent<Scope>().enabled = false;
 
                 }
@@ -111,6 +111,7 @@ public class Scope : MonoBehaviour
     {
         yield return new WaitForSeconds(0.15f);
         scopeAnimator.SetBool("CanShoot", false);
+        crossHair.transform.localScale += new Vector3(transform.position.x / 2, transform.position.y / 2, transform.position.z / 2);
 
         yield return new WaitForSeconds(2f);
 
