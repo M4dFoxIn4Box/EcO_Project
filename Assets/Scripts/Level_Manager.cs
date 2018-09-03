@@ -180,8 +180,8 @@ public class Level_Manager : MonoBehaviour
         }
         else
         {
-            civilKilled = !civilKilled;
-            StartCoroutine("YouLose");
+            //civilKilled = !civilKilled;
+            //StartCoroutine("YouLose");
         }
     }
 

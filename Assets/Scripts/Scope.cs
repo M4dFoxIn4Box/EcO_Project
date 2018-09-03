@@ -7,12 +7,15 @@ using UnityEngine;
 public class Scope : MonoBehaviour
 {
     public Animator scopeAnimator;
-    public AudioSource sniperSnd;
-    public AudioClip shootSnd;
+    public AudioSource charlieSnd;
     public GameObject scopeImg;
     public GameObject weaponCam;
     public GameObject crossHair;
     public Camera mainCamera;
+
+    [Header("Audios")]
+    public AudioClip correctAnswer;
+    public AudioClip wrongAnswer;
 
     [Header("Weapon Settings")]
     public float impactForce;
@@ -21,7 +24,6 @@ public class Scope : MonoBehaviour
     public GameObject impactVFX;
 
     private int shotValue = 1;
-    private bool canShoot = true;
     private float normalFOV;
     private bool isScoped = false;
 
@@ -29,19 +31,17 @@ public class Scope : MonoBehaviour
     {
         
         normalFOV = mainCamera.fieldOfView;
+        AudioSource charlieSnd = GetComponent<AudioSource>();
       
     }
 
     public void Update()
     {
 
-        if (Input.GetButtonDown("Fire1") && canShoot)
+        if (Input.GetButtonDown("Fire1"))
         {
             Level_Manager.instance.ShotsChallenge(shotValue);
-            scopeAnimator.SetBool("CanShoot", canShoot);
-            canShoot = !canShoot;
             StartCoroutine("Shoot");
-            sniperSnd.Play();
             //muzzleFlash.Play();
             
 
@@ -51,13 +51,11 @@ public class Scope : MonoBehaviour
 
                 Debug.DrawRay(mainCamera.transform.position, mainCamera.transform.TransformDirection(Vector3.forward) * hit.distance, Color.green, 100f);
                 Debug.Log("Did Hit");
-                if(hit.rigidbody != null)
-                {
-                    hit.rigidbody.AddForce(-hit.normal * impactForce);
-                }
+
                 if (hit.collider.CompareTag("Target"))
                 {
-                    Debug.Log("You Win");  
+                    Debug.Log("You Win");
+                    charlieSnd.PlayOneShot(correctAnswer, 1f);
                     Destroy(hit.collider);
                     Destroy(hit.transform.gameObject, 3f);
                     gameObject.GetComponent<Scope>().enabled = false;
@@ -65,9 +63,10 @@ public class Scope : MonoBehaviour
                 else if(hit.collider.CompareTag("Civil"))
                 {
                     Debug.Log("You Lose");
+                    charlieSnd.PlayOneShot(wrongAnswer, 1f);
                     Destroy(hit.collider);
                     Destroy(hit.transform.gameObject, 3f);
-                    gameObject.GetComponent<Scope>().enabled = false;
+                    //gameObject.GetComponent<Scope>().enabled = false;
 
                 }
 
@@ -77,8 +76,8 @@ public class Scope : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                 }
 
-                GameObject impactGO = Instantiate(impactVFX, hit.point, Quaternion.LookRotation(hit.normal));
-                Destroy(impactGO, 2f);
+                //GameObject impactGO = Instantiate(impactVFX, hit.point, Quaternion.LookRotation(hit.normal));
+                //Destroy(impactGO, 2f);
 
             }
             else
@@ -114,7 +113,7 @@ public class Scope : MonoBehaviour
         scopeAnimator.SetBool("CanShoot", false);
 
         yield return new WaitForSeconds(2f);
-        canShoot = !canShoot;
+
 
     }
 
