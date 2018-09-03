@@ -95,7 +95,7 @@ public class Level_Manager : MonoBehaviour
 
     public void Start()
     {
-        missionLvlTxt.text = "Target" + " " + missionLvlNumber;
+        missionLvlTxt.text = "Niveau" + " " + missionLvlNumber;
         playerGO.GetComponent<Scope>().enabled = false;
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;

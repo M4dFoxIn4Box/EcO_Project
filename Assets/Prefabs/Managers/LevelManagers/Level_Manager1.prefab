@@ -56,17 +56,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   civilType:
   - {fileID: 11400000, guid: ab1973ae6050e4d49a4592b8368a6efc, type: 2}
   - {fileID: 11400000, guid: 48b7045ffe2927741a1e143d32b830ee, type: 2}
@@ -89,25 +78,27 @@ MonoBehaviour:
   timer: {fileID: 0}
   challengesUI: {fileID: 0}
   timerToggle: {fileID: 0}
-  targetsToggle: {fileID: 0}
   shotsToggle: {fileID: 0}
+  targetsToggle: {fileID: 0}
   challengeList:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   challengeCondition:
-  - Kill the targets in 35 seconds
-  - Kill the targets with less than 8 shots
-  - Destroy the 2 secret targets
+  - Trouve ECO en 35 secondes
+  - Trouve ECO en faisant moins de 8 erreurs
+  - "Trouve les 5 cibles cach\xE9es"
   type: 000000000200000001000000
   targetSeconds: 35
   targetMinutes: 0
-  shotLimit: 7
-  secretTargetTotal: 2
+  shotLimit: 8
+  secretTargetTotal: 5
   pauseMenu: {fileID: 0}
   missionTxt: {fileID: 0}
   missionMessage:
   - <color=red>Mission Completed</color>
   - <color=red>Mission Failed</color>
+  missionLvlTxt: {fileID: 0}
+  missionLvlNumber: 1
   endMenu: {fileID: 0}
   nextMission: {fileID: 0}
