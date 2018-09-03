@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548964005eae38346951e4b2ab7aefeb, type: 3}
+  m_Name: African_Brown_C
+  m_EditorClassIdentifier: 
+  civilname: Wallid KIBJECK
+  colors:
+  - {fileID: 2100000, guid: 30e563f9b1699e646a0b6989c132e591, type: 2}
+  - {fileID: 2100000, guid: 1e616acb46d5a4e48bbbbe5af36d3b98, type: 2}
+  - {fileID: 2100000, guid: 8ecd368e90ed4e240bca127456a9fe1a, type: 2}
+  - {fileID: 2100000, guid: f2971883e59c20b46ac357c957fa0446, type: 2}
+  skinColor: {fileID: 2100000, guid: 0dd2e9bd7d2342946a446be3da18b00f, type: 2}
+  manikColors:
+  - {fileID: 2100000, guid: 3297235afe8822e4995e82284712bf4a, type: 2}
+  - {fileID: 2100000, guid: 4b1ff8e5eedfbfa4b91b18fb0b1dd6cc, type: 2}
+  - {fileID: 2100000, guid: 895f4dd5fae647b49a7aeef07b8073f1, type: 2}
+  - {fileID: 2100000, guid: 895343f21e646f04cb02e5b1a530499e, type: 2}
+  manikSkinColor: {fileID: 2100000, guid: 9eb825eab08664a41bf3e5869b4b9cf3, type: 2}

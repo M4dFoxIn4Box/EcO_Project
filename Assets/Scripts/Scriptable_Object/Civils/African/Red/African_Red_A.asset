@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548964005eae38346951e4b2ab7aefeb, type: 3}
+  m_Name: African_Red_A
+  m_EditorClassIdentifier: 
+  civilname: Daniel BONDOIN
+  colors:
+  - {fileID: 2100000, guid: 17057270e3e8bd148a9d806aa3ff0cff, type: 2}
+  - {fileID: 2100000, guid: 8ecd368e90ed4e240bca127456a9fe1a, type: 2}
+  - {fileID: 2100000, guid: 1cd6e8a4010d0944abd3f62c0b324397, type: 2}
+  - {fileID: 2100000, guid: f2971883e59c20b46ac357c957fa0446, type: 2}
+  skinColor: {fileID: 2100000, guid: 0dd2e9bd7d2342946a446be3da18b00f, type: 2}
+  manikColors:
+  - {fileID: 2100000, guid: 11b8fe3edc4576c40b2732bb74f367cc, type: 2}
+  - {fileID: 2100000, guid: 895f4dd5fae647b49a7aeef07b8073f1, type: 2}
+  - {fileID: 2100000, guid: 6cb599ac1e37dd54bbbdb5cb72be3e53, type: 2}
+  - {fileID: 2100000, guid: 895343f21e646f04cb02e5b1a530499e, type: 2}
+  manikSkinColor: {fileID: 2100000, guid: 9eb825eab08664a41bf3e5869b4b9cf3, type: 2}

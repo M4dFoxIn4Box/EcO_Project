@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548964005eae38346951e4b2ab7aefeb, type: 3}
+  m_Name: Waluigi
+  m_EditorClassIdentifier: 
+  civilname: LUIWAGI
+  colors:
+  - {fileID: 2100000, guid: af197d58e9c0ac54bb443cebcfcb6607, type: 2}
+  - {fileID: 2100000, guid: af197d58e9c0ac54bb443cebcfcb6607, type: 2}
+  - {fileID: 2100000, guid: 9d39cacb173084942909233279434b2c, type: 2}
+  - {fileID: 2100000, guid: d0c03b7e22dc39e43b592ad594853be7, type: 2}
+  skinColor: {fileID: 2100000, guid: 9a563c0679e895143945023f30135751, type: 2}
+  manikColors:
+  - {fileID: 2100000, guid: b0d6ab947ca85b24c8000409ca26a403, type: 2}
+  - {fileID: 2100000, guid: b0d6ab947ca85b24c8000409ca26a403, type: 2}
+  - {fileID: 2100000, guid: e39ec7bd98994ed4cb7713a5e73739fc, type: 2}
+  - {fileID: 2100000, guid: dd7681c9bc57f65458cf850516e68995, type: 2}
+  manikSkinColor: {fileID: 2100000, guid: b164ab43e430f164c97a027c09e52191, type: 2}

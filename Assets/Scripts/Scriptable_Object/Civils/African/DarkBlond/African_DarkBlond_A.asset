@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548964005eae38346951e4b2ab7aefeb, type: 3}
+  m_Name: African_DarkBlond_A
+  m_EditorClassIdentifier: 
+  civilname: Anna ZEKON
+  colors:
+  - {fileID: 2100000, guid: 023dbdbd55f55a64597424740fb8b23d, type: 2}
+  - {fileID: 2100000, guid: 043988ad00957b943bd014b521eb02b6, type: 2}
+  - {fileID: 2100000, guid: d0c03b7e22dc39e43b592ad594853be7, type: 2}
+  - {fileID: 2100000, guid: 1cd6e8a4010d0944abd3f62c0b324397, type: 2}
+  skinColor: {fileID: 2100000, guid: 0dd2e9bd7d2342946a446be3da18b00f, type: 2}
+  manikColors:
+  - {fileID: 2100000, guid: b91c0f99002f60d438de379934008176, type: 2}
+  - {fileID: 2100000, guid: 7c08af06aa6aeb740aa982474f0f44db, type: 2}
+  - {fileID: 2100000, guid: dd7681c9bc57f65458cf850516e68995, type: 2}
+  - {fileID: 2100000, guid: 6cb599ac1e37dd54bbbdb5cb72be3e53, type: 2}
+  manikSkinColor: {fileID: 2100000, guid: 9eb825eab08664a41bf3e5869b4b9cf3, type: 2}

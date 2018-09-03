@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1408325377416944}
+  m_IsPrefabParent: 1
+--- !u!1 &1408325377416944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4108922880557004}
+  - component: {fileID: 114729432697749708}
+  m_Layer: 0
+  m_Name: Level_Manager1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4108922880557004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1408325377416944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 702.54956, y: -188.20801, z: 40.558563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114729432697749708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1408325377416944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883e681fb7540e84cb9ca664d4577875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  civilList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  civilType:
+  - {fileID: 11400000, guid: ab1973ae6050e4d49a4592b8368a6efc, type: 2}
+  - {fileID: 11400000, guid: 48b7045ffe2927741a1e143d32b830ee, type: 2}
+  - {fileID: 11400000, guid: 3aa948e27540ee9478a76af20ac2a50f, type: 2}
+  - {fileID: 11400000, guid: 96586fa95b339314db8c0cb06c90b502, type: 2}
+  - {fileID: 11400000, guid: ce9ab6122526a8b40acff14dd2546123, type: 2}
+  - {fileID: 11400000, guid: 9735d66ea00cb0440ad366d86b8edb3b, type: 2}
+  - {fileID: 11400000, guid: d6f802308a35e5e4c947ab8e575322de, type: 2}
+  - {fileID: 11400000, guid: 63e147503cbc2f840bb3e9059c8c859d, type: 2}
+  - {fileID: 11400000, guid: 16e382534d7c0aa4da2501e19bead794, type: 2}
+  - {fileID: 11400000, guid: c6a81507da8e6e64286a20f83c36ec69, type: 2}
+  - {fileID: 11400000, guid: 043a8f66ea46d3f4f9d6dad01a860d0a, type: 2}
+  - {fileID: 11400000, guid: 42769665b26de784b84b4eb35f139864, type: 2}
+  - {fileID: 11400000, guid: 0a69994b87463e9489c9d19aa2a07735, type: 2}
+  - {fileID: 11400000, guid: a137909da7c17aa42a91c6092c3ee7c6, type: 2}
+  - {fileID: 11400000, guid: e557fafe571fdce41a63d80d1eb6699e, type: 2}
+  playerGO: {fileID: 0}
+  seconds: 10
+  minutes: 1
+  timer: {fileID: 0}
+  challengesUI: {fileID: 0}
+  timerToggle: {fileID: 0}
+  targetsToggle: {fileID: 0}
+  shotsToggle: {fileID: 0}
+  challengeList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  challengeCondition:
+  - Kill the targets in 35 seconds
+  - Kill the targets with less than 8 shots
+  - Destroy the 2 secret targets
+  type: 000000000200000001000000
+  targetSeconds: 35
+  targetMinutes: 0
+  shotLimit: 7
+  secretTargetTotal: 2
+  pauseMenu: {fileID: 0}
+  missionTxt: {fileID: 0}
+  missionMessage:
+  - <color=red>Mission Completed</color>
+  - <color=red>Mission Failed</color>
+  endMenu: {fileID: 0}
+  nextMission: {fileID: 0}

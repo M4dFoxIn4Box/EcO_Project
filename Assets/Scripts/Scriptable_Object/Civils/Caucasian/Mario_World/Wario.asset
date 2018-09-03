@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548964005eae38346951e4b2ab7aefeb, type: 3}
+  m_Name: Wario
+  m_EditorClassIdentifier: 
+  civilname: RIOWA
+  colors:
+  - {fileID: 2100000, guid: 9a5443acd0ebb5c4e8d699189215c9e2, type: 2}
+  - {fileID: 2100000, guid: 8ecd368e90ed4e240bca127456a9fe1a, type: 2}
+  - {fileID: 2100000, guid: 1e616acb46d5a4e48bbbbe5af36d3b98, type: 2}
+  - {fileID: 2100000, guid: 043988ad00957b943bd014b521eb02b6, type: 2}
+  skinColor: {fileID: 2100000, guid: 9a563c0679e895143945023f30135751, type: 2}
+  manikColors:
+  - {fileID: 2100000, guid: 700a46d23e2dc814192dffe65d86cf7c, type: 2}
+  - {fileID: 2100000, guid: 895f4dd5fae647b49a7aeef07b8073f1, type: 2}
+  - {fileID: 2100000, guid: 4b1ff8e5eedfbfa4b91b18fb0b1dd6cc, type: 2}
+  - {fileID: 2100000, guid: 7c08af06aa6aeb740aa982474f0f44db, type: 2}
+  manikSkinColor: {fileID: 2100000, guid: b164ab43e430f164c97a027c09e52191, type: 2}
