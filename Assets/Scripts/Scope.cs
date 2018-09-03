@@ -11,12 +11,12 @@ public class Scope : MonoBehaviour
     public AudioClip shootSnd;
     public GameObject scopeImg;
     public GameObject weaponCam;
+    public GameObject crossHair;
     public Camera mainCamera;
 
     [Header("Weapon Settings")]
     public float impactForce;
     private float nextTimeToShoot;
-    public ParticleSystem muzzleFlash;
     public float scopeFOV = 15f;
     public GameObject impactVFX;
 
@@ -42,7 +42,7 @@ public class Scope : MonoBehaviour
             canShoot = !canShoot;
             StartCoroutine("Shoot");
             sniperSnd.Play();
-            muzzleFlash.Play();
+            //muzzleFlash.Play();
             
 
             RaycastHit hit;
@@ -90,7 +90,7 @@ public class Scope : MonoBehaviour
 
         if (Input.GetButtonDown("Zoom"))
         {
-            
+            crossHair.SetActive(true);
             isScoped = !isScoped;
             scopeAnimator.SetBool("IsScoped", isScoped);
             StartCoroutine("OnScoped");
@@ -98,10 +98,11 @@ public class Scope : MonoBehaviour
 
         if(Input.GetButtonUp("Zoom") && isScoped)
         {
-            
+
             isScoped = !isScoped;
             scopeAnimator.SetBool("IsScoped", isScoped);
             StartCoroutine("OnUnScoped");
+            crossHair.SetActive(false);
         }
     }
 

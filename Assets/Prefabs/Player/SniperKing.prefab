@@ -204,7 +204,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1218503108549784}
   m_LocalRotation: {x: -0, y: 0.6978961, z: -0, w: 0.71619904}
-  m_LocalPosition: {x: 32.304066, y: 8, z: 48.064384}
+  m_LocalPosition: {x: 30.002064, y: 8, z: 48.240387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4233965460005370}
@@ -324,7 +324,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1003157147985356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.06, z: 0.097}
+  m_LocalPosition: {x: 0, y: 0.078, z: 0.097}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4340080965414566}
@@ -430,7 +430,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1187833688096778}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -465,7 +465,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1341358449815680}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -503,7 +503,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1684517902866666}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -538,7 +538,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1242299383264688}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -764,8 +764,8 @@ MonoBehaviour:
   cam: {fileID: 20790144120702958}
   movementSettings:
     ForwardSpeed: 10
-    BackwardSpeed: 6
-    StrafeSpeed: 6
+    BackwardSpeed: 5
+    StrafeSpeed: 5
     RunMultiplier: 2
     RunKey: 304
     JumpForce: 0
@@ -826,7 +826,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1003157147985356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83c81407209f85e4c87c0cda8b32868e, type: 3}
   m_Name: 
