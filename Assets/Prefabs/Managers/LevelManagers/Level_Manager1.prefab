@@ -56,6 +56,13 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   civilType:
   - {fileID: 11400000, guid: ab1973ae6050e4d49a4592b8368a6efc, type: 2}
   - {fileID: 11400000, guid: 48b7045ffe2927741a1e143d32b830ee, type: 2}
@@ -72,9 +79,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0a69994b87463e9489c9d19aa2a07735, type: 2}
   - {fileID: 11400000, guid: a137909da7c17aa42a91c6092c3ee7c6, type: 2}
   - {fileID: 11400000, guid: e557fafe571fdce41a63d80d1eb6699e, type: 2}
+  - {fileID: 11400000, guid: 5afe6874f62dd374aae97a367d343a45, type: 2}
+  - {fileID: 11400000, guid: ff63fc6a51c31a648812149b38a89352, type: 2}
+  - {fileID: 11400000, guid: f2b277340b8485b448e36d5ea243eaf7, type: 2}
+  - {fileID: 11400000, guid: 60f7e030943574c4ebb391fc10c4a0ce, type: 2}
+  - {fileID: 11400000, guid: 02feabf860ce259408aaf94878d02a2c, type: 2}
+  - {fileID: 11400000, guid: a1f0ae91f113dbc428e114fde9a51eb1, type: 2}
   playerGO: {fileID: 0}
-  seconds: 10
-  minutes: 1
+  seconds: 0
+  minutes: 5
   timer: {fileID: 0}
   challengesUI: {fileID: 0}
   timerToggle: {fileID: 0}
@@ -84,21 +97,25 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  challengeListStart:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   challengeCondition:
-  - Trouve ECO en 35 secondes
-  - Trouve ECO en faisant moins de 8 erreurs
-  - "Trouve les 5 cibles cach\xE9es"
+  - Trouve Nono en moins de 2 minutes
+  - Trouve Nono en moins de 10 erreurs
+  - Trouve 3 Charlots
   type: 000000000200000001000000
-  targetSeconds: 35
-  targetMinutes: 0
-  shotLimit: 8
-  secretTargetTotal: 5
+  targetSeconds: 0
+  targetMinutes: 3
+  errorLimit: 10
+  secretTargetTotal: 3
   pauseMenu: {fileID: 0}
   missionTxt: {fileID: 0}
   missionMessage:
   - <color=red>Mission Completed</color>
   - <color=red>Mission Failed</color>
   missionLvlTxt: {fileID: 0}
-  missionLvlNumber: 1
+  missionLvlNumber: 3
   endMenu: {fileID: 0}
   nextMission: {fileID: 0}

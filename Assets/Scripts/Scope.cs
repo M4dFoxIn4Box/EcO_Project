@@ -37,7 +37,7 @@ public class Scope : MonoBehaviour
     public void Update()
     {
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && isScoped)
         {
             crossHair.transform.localScale -= new Vector3(transform.position.x / 2, transform.position.y / 2, transform.position.z / 2);
             StartCoroutine("Shoot");
