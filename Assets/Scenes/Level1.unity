@@ -8810,7 +8810,7 @@ Prefab:
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
       propertyPath: missionLvlNumber
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1ba2f3911f59a74c8730d0c0cad4da7, type: 2}
