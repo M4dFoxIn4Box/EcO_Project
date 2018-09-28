@@ -102,7 +102,7 @@ public class Level_Manager : MonoBehaviour
 
     public void Start()
     {
-        missionLvlTxt.text = "Niveau" + " " + missionLvlNumber;
+        missionLvlTxt.text = "Niveau " + " " + missionLvlNumber + " : " + " Attrape le suspect !";
         playerGO.GetComponent<Scope>().enabled = false;
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;

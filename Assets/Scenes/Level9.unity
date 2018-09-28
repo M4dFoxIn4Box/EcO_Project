@@ -10683,12 +10683,12 @@ Prefab:
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
       propertyPath: challengeCondition.Array.data[1]
-      value: Trouve Nono en moins de 2 erreurs
+      value: 2 _ Trouve le suspect en moins de 2 erreurs.
       objectReference: {fileID: 0}
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
       propertyPath: challengeCondition.Array.data[2]
-      value: Trouve 2 Charlots
+      value: 3 _ Trouve 2 Charlots.
       objectReference: {fileID: 0}
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
@@ -10728,7 +10728,7 @@ Prefab:
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
       propertyPath: challengeCondition.Array.data[0]
-      value: Trouve Nono en moins de 20 secondes
+      value: 1 _ Trouve le suspect en moins de 20 secondes.
       objectReference: {fileID: 0}
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
@@ -10758,12 +10758,12 @@ Prefab:
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
       propertyPath: missionMessage.Array.data[0]
-      value: "<color=red>Bien jou\xE9 !</color>"
+      value: "Bien jou\xE9 !"
       objectReference: {fileID: 0}
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
       propertyPath: missionMessage.Array.data[1]
-      value: <color=red>Dommage...</color>
+      value: Dommage...
       objectReference: {fileID: 0}
     - target: {fileID: 114729432697749708, guid: c1ba2f3911f59a74c8730d0c0cad4da7,
         type: 2}
